@@ -1,0 +1,21 @@
+  500  pwd
+  501  ls
+  502  Rscript 01-intro.R
+  503  Rscript 02-main.R
+  504  Rscript 02-main.R
+  505  Rscript 03-save.R
+  506  Rscript 04-docopt.R hello call 310
+  507  Rscript 04-docopt.R
+  508  Rscript 05-docopt2.R age
+  509  Rscript 05-docopt2.R fare
+  510  Rscript 05-docopt2.R boat
+  511  Rscript 06-docopt3.R data/gapminder-FiveYearData.csv  pop
+  512  Rscript "06-docopt3.R" data/gapminder-FiveYearData.csv  pop
+  513  cd data/
+  514  Rscript ../06-docopt3.R gapminder-FiveYearData.csv pop
+  515  cd ..
+  516  Rscript 06-docopt3.R data/gapminder-FiveYearData.csv  pop
+  517  Rscript src/06-docopt3.R data/gapminder-FiveYearData.csv  pop
+  518  Rscript 07-position_kw.R --file_path=data/titanic.csv --var=fare
+  519  Rscript 07-position_kw.R --file_path=data/titanic.csv --var=fare
+  520  history > history.txt
